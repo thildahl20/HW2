@@ -36,15 +36,15 @@ public class Police extends Person implements Employee{
 	employeeID = id;
 	Role = role;
  
-	}
   /**
   * This can change the building that the police person is in
   * @param person
   * @param building
   */
-public void setBuilding(Person p, String building) {
+void setBuilding(Person p, String building) {
 inBuilding = building;   
   }
+	}
 	/**
 	 * This will output the employee's id number upon being called
 	 */
