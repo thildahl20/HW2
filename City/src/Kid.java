@@ -39,7 +39,7 @@ favCandy = candy;
   * @param person
   * @param building
   */
-setBuilding(Person p, String building) {
+void setBuilding(Person p, String building) {
 inBuilding = building;   
   }
 }
