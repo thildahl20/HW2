@@ -33,4 +33,13 @@ phone_number = phone;
 inBuilding = building;
 favCandy = candy;
 }
+  
+  /**
+  * This can change the building that the kid is in
+  * @param person
+  * @param building
+  */
+setBuilding(Person p, String building) {
+inBuilding = building;   
+  }
 }
