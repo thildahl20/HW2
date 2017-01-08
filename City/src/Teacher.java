@@ -29,6 +29,14 @@ gradeLevel = grade;
 certification = certify;
 employeeID = id;
 }
+  /**
+  * This can change the building that the teacher is in
+  * @param person
+  * @param building
+  */
+void setBuilding(Person p, String building) {
+inBuilding = building;   
+  }
 /**
  * This gives the teacher's employeeID upon being called
  */
